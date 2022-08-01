@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask.logging import create_logger
 import logging
 
-# import pandas as pd
+import pandas as pd
 # from sklearn.externals import joblib
 # from sklearn.preprocessing import StandardScaler
 
@@ -23,7 +23,6 @@ def home():
     html = "<h3>Sklearn Prediction Home</h3>"
     return html.format(format)
 
-# TO DO:  Log out the prediction value
 @app.route("/predict", methods=['POST'])
 def predict():
     """Performs an sklearn prediction
