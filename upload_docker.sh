@@ -5,7 +5,7 @@
 #docker build --tag=flasksklearn .
 
 
-dockerpath="./"
+dockerpath="hsonnl/flasksklearn"
 
 # Authenticate & Tag
 echo "Docker ID and Image: $dockerpath"
