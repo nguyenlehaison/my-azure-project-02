@@ -8,16 +8,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'fab4f418-3cd2-4a16-976f-4fbae21dcc8e'
+  azureServiceConnectionId: 'azureServiceConnectionKorea'
 
   # Web app name
-  webAppName: 'hsonnlproject2'
+  webAppName: 'azwebappproject02'
 
   # Agent VM image name
   vmImageName: 'myAgentPool2'
 
   # Environment name
-  environmentName: 'hsonnlproject2'
+  environmentName: 'azwebappproject02'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
