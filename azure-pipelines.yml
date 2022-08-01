@@ -13,8 +13,9 @@ variables:
   # Web app name
   webAppName: 'azwebappproject02'
 
+  poolName: 'myAgentPool2'
   # Agent VM image name
-  vmImageName: 'myAgentPool2'
+  vmImageName: 'hsonnlLinuxVM'
 
   # Environment name
   environmentName: 'azwebappproject02'
@@ -67,6 +68,7 @@ stages:
   jobs:
   - deployment: DeploymentJob
     pool:
+      name: $(poolName)
       vmImage: $(vmImageName)
     environment: $(environmentName)
     strategy:
