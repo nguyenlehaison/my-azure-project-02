@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: 'c440471d-328f-4fd7-b21c-49de967ba6ec'
 
   # Web app name
-  webAppName: 'azwebappproject02'
+  webAppName: 'hsonnlwebapp02'
 
   poolName: 'myAgentPool2'
   # Agent VM image name
@@ -74,7 +74,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : azwebappproject02'
+            displayName: 'Deploy Azure Web App : hsonnlwebapp02'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
