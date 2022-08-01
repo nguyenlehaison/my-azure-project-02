@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-dockerpath="noahgift/flasksklearn"
+dockerpath="./"
 
 # Run in Docker Hub container with kubernetes
 kubectl run flaskskearlndemo\
