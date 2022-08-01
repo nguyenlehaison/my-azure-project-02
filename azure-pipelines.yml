@@ -66,15 +66,15 @@ stages:
     pool:
       name: $(poolName)
       vmImage: $(vmImageName)
-    environment: 
-      name: $(environmentName)
+    environment:
+      name: 'azwebappproject02'
       resourceName: 'hsonnlLinuxVM'
     strategy:
       runOnce:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : hsonnlproject2'
+            displayName: 'Deploy Azure Web App : azwebappproject02'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
