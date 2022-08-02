@@ -15,4 +15,4 @@ RUN python3.7 -m pip install --upgrade pip &&\
 EXPOSE 80
 
 # Run app.py at container launch
-CMD ["python", "app.py"]
+CMD ["python3.7", "app.py"]
