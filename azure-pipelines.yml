@@ -11,14 +11,16 @@ variables:
   azureServiceConnectionId: 'c440471d-328f-4fd7-b21c-49de967ba6ec'
 
   # Web app name
-  webAppName: 'hsonnlwebapp02'
+  webAppName: ''
 
-  poolName: 'myAgentPool2'
+  # Pool Agent Name
+  poolName: ''
+
   # Agent VM image name
-  vmImageName: 'hsonnlLinuxVM'
+  vmImageName: ''
 
   # Environment name
-  environmentName: 'azwebappproject02'
+  environmentName: ''
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)

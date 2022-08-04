@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://hsonnlwebapp02.azurewebsites.net:$PORT/predict
+     -X POST https://hsonnlAppService.azurewebsites.net:$PORT/predict
