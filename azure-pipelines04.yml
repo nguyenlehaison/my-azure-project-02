@@ -68,7 +68,7 @@ stages:
       vmImage: $(vmImageName)
     environment:
       name: $(environmentName)
-      resourceName: $(vmImageName)
+      resourceName: 'hsonnlProject2VM'
     strategy:
       runOnce:
         deploy:
