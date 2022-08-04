@@ -8,17 +8,17 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'c440471d-328f-4fd7-b21c-49de967ba6ec'
+  azureServiceConnectionId: '0d37424b-00d2-43a0-98b8-2808bd4c7924'
 
   # Web app name
   webAppName: 'hsonnlwebapp02'
 
-  poolName: 'myAgentPool2'
+  poolName: 'hsonnlAgentPool'
   # Agent VM image name
-  vmImageName: 'hsonnlLinuxVM'
+  vmImageName: 'hsonnlProject2VM'
 
   # Environment name
-  environmentName: 'azwebappproject02'
+  environmentName: 'hsonnlAZProject02Env'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
@@ -67,8 +67,8 @@ stages:
       name: $(poolName)
       vmImage: $(vmImageName)
     environment:
-      name: 'azwebappproject02'
-      resourceName: 'hsonnlLinuxVM'
+      name: $(environmentName)
+      resourceName: $(vmImageName)
     strategy:
       runOnce:
         deploy:
