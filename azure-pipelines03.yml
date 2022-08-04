@@ -13,7 +13,7 @@ variables:
   # Web app name
   webAppName: 'hsonnlproject2webapp'
 
-  poolName: 'testingPool'
+  poolName: 'hsonnlAgentPool'
   # Agent VM image name
   vmImageName: 'hsonnlProject2VM'
 
@@ -68,7 +68,7 @@ stages:
       vmImage: $(vmImageName)
     environment:
       name: $(environmentName)
-      resourceName: 'hsonnlProject2VM'
+      resourceName: $(vmImageName)
     strategy:
       runOnce:
         deploy:
