@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: '0d37424b-00d2-43a0-98b8-2808bd4c7924'
 
   # Web app name
-  webAppName: 'hsonnlwebapp02'
+  webAppName: 'hsonnlproject2webapp'
 
   poolName: 'hsonnlAgentPool'
   # Agent VM image name
