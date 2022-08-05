@@ -1,5 +1,6 @@
 # HSONNL AZURE DEVOPS PROJECT 02
 [![Python application test with Github Actions](https://github.com/nguyenlehaison/my-azure-project-02/actions/workflows/python-app.yml/badge.svg)](https://github.com/nguyenlehaison/my-azure-project-02/actions/workflows/python-app.yml)
+[![Build Status](https://dev.azure.com/nguyenlehaison/hsonnlProject/_apis/build/status/nguyenlehaison.my-azure-project-02?branchName=master)](https://dev.azure.com/nguyenlehaison/hsonnlProject/_build/latest?definitionId=10&branchName=master)
 ## Overview
 
 1. In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery.
