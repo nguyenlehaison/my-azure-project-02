@@ -19,6 +19,7 @@
 * Architectural Diagram (Shows how key parts of the system work)
 # Let Get Started
 ## 1. Create Resource Group:
+Create a resource group.
 > NOTE: RG is using for the Web App and VM.
 ## 2. Create Virtual Machine:
 We'll use Ubuntu Server 20.04 LTS - Gen2.
@@ -41,14 +42,14 @@ We'll use these setting:
 | Runtime | python3.7 |
 | Region | Same as your RG |
 
-## 4. Create PAT (Personel Access Token)
-Navigate to https://dev.azure.com/{your organization}/_usersSettings/tokens
-We'll chosing Full access option.
+## 4. Create PAT (Personel Access Token):
+Navigate to https://dev.azure.com/{your_organization}/_usersSettings/tokens
+,We'll chosing Full access option. Then create PAT.
 > NOTE: Take note your PAT after created it.
-## 5. Create Service connections
+## 5. Create Service connections:
 > NOTE: Take note your Service connections Id (resourceId={serviceConnectionsId} on detail Service connections site)
 
-## 6. Create Agent Pools
+## 6. Create Agent Pools:
 
 | Name | Des |
 | ------ | ------ |
@@ -95,7 +96,7 @@ Doing the following
 4. At your VM, paste the script to init the Environment.
 5. When it already completed, back to our new enviroment, the resource is running here. 
 
-## 8. Create Pipeline
+## 8. Create Pipeline:
 We'll create pipeline to implement our CI/CD
 using my ./azure-pipelines.yml and config as the following
 ```yml
@@ -122,7 +123,7 @@ variables:
 ```
 Then click Save button, and Run pipeling, after all that, we will waiting for pipeline is running., it take about 8 - 20 minus
 When its completed, navigate to your page and as you can see, the web app is running.
-## 9. Make Prediction.
+## 9. Make Prediction:
 There is a file named make_predict_azure_app.sh be using to make your web app prediction.
 Running the following below
 ```bash
@@ -134,7 +135,7 @@ Port: 443
 
 ```
 
-## 10. Testing with Locust.
+## 10. Testing with Locust:
 There is a file named locust_run.sh be using to testing your web app with Locust.
 Running the following below.
 ```bash
