@@ -74,8 +74,8 @@ stages:
       name: $(poolName)
       vmImage: $(vmImageName)
     environment:
-      name: $(environmentName)
-      resourceName: $(vmImageName)
+      name: 'hsonnlEnv'
+      resourceName: 'hsonnlVM'
     strategy:
       runOnce:
         deploy:
