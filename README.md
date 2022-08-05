@@ -9,7 +9,7 @@
 ## Project Plan
 
 - [Link to a Trello board for the project](https://trello.com/b/vqE9PNqV/azure-project-02)
-- [Link to spreadsheet](https://trello.com/b/vqE9PNqV/azure-project-02)
+- [Link to spreadsheet](https://docs.google.com/spreadsheets/d/1jUtjODDRa1M4Loy6gqyK2wgP7XGKRejWMXnr5Yq3gjU/edit?usp=sharing)
 ## Pre requisites
 1. [An Azure Account](https://portal.azure.com/)
 2. [A GitHub Account](http://github.com/)
