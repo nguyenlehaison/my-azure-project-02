@@ -1,5 +1,5 @@
 # HSONNL AZURE DEVOPS PROJECT 02
-![Python application test with Github Actions](https://github.com/nguyenlehaison/my-azure-project-02/actions/workflows/python-app.yml)
+[![Python application test with Github Actions](https://github.com/nguyenlehaison/my-azure-project-02/actions/workflows/python-app.yml)]
 ## Overview
 
 1. In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery.
