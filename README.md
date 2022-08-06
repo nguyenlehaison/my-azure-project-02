@@ -181,6 +181,7 @@ Running the following below.
 ./locust_run.sh
 
 ```
+![alt text](./screenshot/testing_with_locust.png)
 # Fix the Issues
 
 ### Achive zip error
@@ -188,7 +189,6 @@ Running the following below.
 sudo apt-get -y install zip
 
 ```
-![alt text](./screenshot/testing_with_locust.png)
 ### VM is not already install data or build Python version error
 ```bash
 # Update Ubuntu
