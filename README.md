@@ -222,6 +222,4 @@ sudo apt install python3.7-venv
 - Setup app running on more environments.
 # Demo 
 
-<TODO: Add link Screencast on YouTube>
-
-
+[You can watch all my steps on Youtube](https://youtu.be/SORD03t7nlo)
