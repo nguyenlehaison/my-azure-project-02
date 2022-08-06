@@ -15,8 +15,8 @@
 1. [An Azure Account](https://portal.azure.com/)
 2. [A GitHub Account](http://github.com/)
 3. [An Azure DevOps Account](https://dev.azure.com/)
-## Architectural Diagram - CI - GitHub Actions
-* Architectural Diagram (Shows how key parts of the system work)
+## Architectural Diagram
+![alt text](./screenshot/cd-diagram.png)
 # Let Get Started
 ## 1. Create Resource Group:
 Create a resource group.
