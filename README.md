@@ -55,7 +55,7 @@ git clone git@github.com:nguyenlehaison/my-azure-project-02.git
 ![alt text](./screenshot/project_cloned.png)
 
 5. Run make all
-![alt text](./screenshot/make_all.png.png)
+![alt text](./screenshot/make_all.png)
 
 
 ## 3. Create App Service:
