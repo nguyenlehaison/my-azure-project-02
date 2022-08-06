@@ -43,9 +43,19 @@ cat ~/.ssh/id_rsa.pub
 
 ```
 2. Switch to gitbub and add SSH key.
+![alt text](./screenshot/add_ssh_key.png)
+Add successful
+![alt text](./screenshot/add_success_ssh_key.png)
 
-![alt text](https://github.com/nguyenlehaison/my-azure-project-02/screenshot/make_prediction.png)
+3. Switch to CLI that accessed your VM, then clone project
+```bash
+git clone git@github.com:nguyenlehaison/my-azure-project-02.git
+```
+4. The project is cloned.
+![alt text](./screenshot/project_cloned.png)
 
+5. Run make all
+![alt text](./screenshot/make_all_start.png)
 ## 3. Create App Service:
 We'll use these setting:
 
