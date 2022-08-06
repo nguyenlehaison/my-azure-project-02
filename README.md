@@ -182,7 +182,7 @@ Running the following below.
 
 ```
 ![alt text](./screenshot/testing_with_locust.png)
-# Fix the Issues
+## Fix the Issues
 
 ### Achive zip error
 ```bash
@@ -214,7 +214,7 @@ sudo apt install python3.7 -y
 sudo apt install python3.7-venv
 
 ```
-# Enhancements
+## Enhancements
 
 - Adding more test cases.
 - Creating a UI for making predictions.
