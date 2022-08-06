@@ -71,6 +71,15 @@ We'll use these setting:
 | Runtime | python3.7 |
 | Region | Same as your RG |
 
+You can create by CLI using this command:
+
+```bash
+az webapp up -n <name of webapp> --location <name of location> --sku B1
+```
+
+App Services is created
+
+![alt text](./screenshot/azure_app_service.png)
 ## 4. Create PAT (Personel Access Token):
 Navigate to https://dev.azure.com/{your_organization}/_usersSettings/tokens
 ,We'll chosing Full access option. Then create PAT.
