@@ -43,8 +43,10 @@ cat ~/.ssh/id_rsa.pub
 
 ```
 2. Switch to gitbub and add SSH key.
+
 ![alt text](./screenshot/add_ssh_key.png)
 Add successful
+
 ![alt text](./screenshot/add_success_ssh_key.png)
 
 3. Switch to CLI that accessed your VM, then clone project
@@ -52,9 +54,11 @@ Add successful
 git clone git@github.com:nguyenlehaison/my-azure-project-02.git
 ```
 4. The project is cloned.
+
 ![alt text](./screenshot/project_cloned.png)
 
 5. Run make all
+
 ![alt text](./screenshot/make_all.png)
 
 
@@ -70,7 +74,9 @@ We'll use these setting:
 ## 4. Create PAT (Personel Access Token):
 Navigate to https://dev.azure.com/{your_organization}/_usersSettings/tokens
 ,We'll chosing Full access option. Then create PAT.
+
 ![alt text](./screenshot/create_PAT.png)
+
 ![alt text](./screenshot/PAT.png)
 > NOTE: Take note your PAT after created it.
 ## 5. Create Service connections:
@@ -116,7 +122,9 @@ Enter authentication type (press enter for PAT) > <your saved PAT>
 ./run.sh
 
 ```
+
 ![alt text](./screenshot/config_pool.png)
+
 ![alt text](./screenshot/agent_running.png)
 After all, we navigate our new Agent Pool and observe the Agent Tab, Our Agent is running.
 > Note: Take note your pool name and agent name.
@@ -126,12 +134,15 @@ Doing the following
 2. New enviroment and take note your enviroment name.
 3. To create Resource, you need to copy the Registration script and back to your VM
 4. At your VM, paste the script to init the Environment.
+
 ![alt text](./screenshot/setup_env.png)
 5. When it already completed, back to our new enviroment, the resource is running here.
+
 ![alt text](./screenshot/env_resource.png)
 
 ## 8. Create Pipeline:
 We'll create pipeline to implement our CI/CD
+
 ![alt text](./screenshot/create_pipeline.png)
 using my ./azure-pipelines.yml and config as the following
 ```yml
@@ -157,8 +168,11 @@ variables:
 
 ```
 Then click Save button, and Run pipeling, after all that, we will waiting for pipeline is running., it take about 8 - 20 minus
+
 ![alt text](./screenshot/pipeline_running.png)
+
 ![alt text](./screenshot/pipeline_completed.png)
+
 When its completed, navigate to your page and as you can see, the web app is running.
 ![alt text](./screenshot/app_running.png)
 
@@ -171,6 +185,7 @@ Running the following below
 
 ```
 Result:
+
 ![alt text](./screenshot/make_prediction.png)
 
 ## 10. Testing with Locust:
@@ -181,6 +196,7 @@ Running the following below.
 ./locust_run.sh
 
 ```
+
 ![alt text](./screenshot/testing_with_locust.png)
 ## Fix the Issues
 
@@ -222,4 +238,4 @@ sudo apt install python3.7-venv
 - Setup app running on more environments.
 # Demo 
 
-[You can watch all my steps on Youtube](https://youtu.be/SORD03t7nlo)
+[You can watch all my steps on Youtube](https://youtu.be/IyDCD82VqdQ)
