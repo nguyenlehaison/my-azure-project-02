@@ -1,6 +1,6 @@
 # HSONNL AZURE DEVOPS PROJECT 02
 [![Python application test with Github Actions](https://github.com/nguyenlehaison/my-azure-project-02/actions/workflows/python-app.yml/badge.svg)](https://github.com/nguyenlehaison/my-azure-project-02/actions/workflows/python-app.yml)
-[![Build Status](https://dev.azure.com/nguyenlehaison/hsonnlProject/_apis/build/status/nguyenlehaison.my-azure-project-02?branchName=master)](https://dev.azure.com/nguyenlehaison/hsonnlProject/_build/latest?definitionId=10&branchName=master)
+[![Build Status](https://dev.azure.com/nguyenlehaison/hsonnlProject/_apis/build/status/nguyenlehaison.my-azure-project-02?branchName=master&stageName=Deploy%20Web%20App)](https://dev.azure.com/nguyenlehaison/hsonnlProject/_build/latest?definitionId=10&branchName=master)
 ## Overview
 
 1. In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery.
@@ -33,6 +33,19 @@ ssh <user>@<VM public ip>
 pass: <yourpassord>
 
 ```
+
+After signed in, we will clone our project into VM by using SSH.
+1. Create ssh key, and copy your public key
+
+```bash
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+
+```
+2. Switch to gitbub and add SSH key.
+
+![alt text](https://github.com/nguyenlehaison/my-azure-project-02/screenshot/make_prediction.png)
+
 ## 3. Create App Service:
 We'll use these setting:
 
@@ -144,7 +157,6 @@ Running the following below.
 
 ```
 # Scope have to do: 
-* Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
 
